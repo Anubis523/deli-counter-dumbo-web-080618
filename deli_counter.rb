@@ -17,5 +17,5 @@ def line (deli)
 end
 
 def now_serving (deli)
-  puts "Currently serving #{deli.unshift}"
+  puts "Currently serving #{deli.shift}"
 end
