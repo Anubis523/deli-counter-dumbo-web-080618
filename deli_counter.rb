@@ -3,7 +3,7 @@ katz_deli = []
 
 def take_a_number (deli, customer)
   deli << customer
-  "Welcome, #{customer}. You are number #{katz_deli.size} in line."
+  "Welcome, #{customer}. You are number #{deli.size} in line."
 end
 
 def line (deli)
