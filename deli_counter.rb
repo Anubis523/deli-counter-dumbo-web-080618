@@ -2,7 +2,7 @@
 katz_deli = []
 
 def take_a_number (deli, customer)
-  katz_deli.push(customer)
+  deli << customer
   "Welcome, #{customer}. You are number #{katz_deli.size} in line."
 end
 
@@ -21,6 +21,6 @@ def now_serving (deli)
     puts "There is nobody waiting to be served!" 
   else
     serving = deli.shift
-    puts "Currently serving #{serving}."
+    puts "Currently serving #{serving}"
   end
 end
