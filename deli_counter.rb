@@ -2,7 +2,7 @@
 katz_deli = []
 
 def take_a_number (deli, customer)
-  katz_deli << customer
+  katz_deli.push(customer)
   "Welcome, #{customer}. You are number #{katz_deli.size} in line."
 end
 
