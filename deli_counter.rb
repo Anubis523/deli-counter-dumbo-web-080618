@@ -21,6 +21,6 @@ def now_serving (deli)
     puts "There is nobody waiting to be served!" 
   else
     serving = deli.shift
-    puts "Currently serving #{serving}"
+    puts "Currently serving #{serving}."
   end
 end
