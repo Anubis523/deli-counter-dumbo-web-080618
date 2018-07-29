@@ -7,7 +7,7 @@ def take_a_number (deli, customer)
 end
 
 def line (deli)
-  (deli.empty)?
+  deli.empty? 
     ""
     :
 end
