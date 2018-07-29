@@ -7,7 +7,9 @@ def take_a_number (deli, customer)
 end
 
 def line (deli)
-  deli.empty? 
+  if (deli.empty?) 
     "The line is currently empty."
-    : deli.each.with_index{}
+  else
+    
+  end
 end
