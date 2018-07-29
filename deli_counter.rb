@@ -12,7 +12,7 @@ def line (deli)
   else
     msg = "The line is currently:"
     deli.each_with_index{|x, index| msg += " #{index+1}. #{x}"}
-    msg
+    puts msg
   end
 end
 
