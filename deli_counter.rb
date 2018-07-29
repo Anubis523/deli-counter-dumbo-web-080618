@@ -5,3 +5,6 @@ def take_a_number (deli, customer)
   katz_deli << customer
   "Welcome, #{customer}. You are number #{katz_deli.size} in line."
 end
+
+def line (deli)
+end
