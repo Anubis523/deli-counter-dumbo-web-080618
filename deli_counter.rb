@@ -2,4 +2,6 @@
 katz_deli = []
 
 def take_a_number (deli, customer)
+  katz_deli << customer
+  "Welcome, #{customer}"
 end
