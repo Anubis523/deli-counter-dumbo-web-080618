@@ -15,3 +15,6 @@ def line (deli)
     msg
   end
 end
+
+def now_serving (deli)
+end
