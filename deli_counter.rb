@@ -10,7 +10,7 @@ def line (deli)
   if (deli.empty?) 
     "The line is currently empty."
   else
-    "The line is currently: "
+    "The line is currently:"
     deli.each_with_index{|x, index|}
   end
 end
