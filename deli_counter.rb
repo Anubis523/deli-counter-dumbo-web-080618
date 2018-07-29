@@ -8,5 +8,6 @@ end
 
 def line (deli)
   (deli.is_empty?)
-    ? "":
+    ? ""
+    :
 end
