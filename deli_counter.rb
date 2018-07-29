@@ -11,6 +11,6 @@ def line (deli)
     "The line is currently empty."
   else
     "The line is currently:"
-    deli.each_with_index{|x, index|}
+    deli.each_with_index{|x, index| print" #{index+1}. #{x}"}
   end
 end
