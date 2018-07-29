@@ -9,5 +9,5 @@ end
 def line (deli)
   deli.empty? 
     "The line is currently empty."
-    :
+    : deli.each.with_index{}
 end
